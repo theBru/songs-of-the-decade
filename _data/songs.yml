@@ -1,0 +1,699 @@
+- name: Kodama
+  artist: Alcest
+  album: Kodama
+  year: 2016
+  position: 24
+  country: France
+  url: kodama
+- name: Drink
+  artist: Alestorm
+  album: Suunset on Golden age
+  year: 2014
+  position: 97
+  country: UK
+  url: sunset-on-golden-age
+- name: Live Without Regrets
+  artist: Amon Amarth
+  album: Surtur Rising
+  year: 2011
+  position: 49
+  country: Sweden
+  url: live-without-regrets
+- name: Solas
+  artist: The Answer
+  album: Solas
+  year: 2016
+  position: 5
+  country: Northern Ireland
+  url: solas
+- name: Blood Eagle Wings
+  artist: Anthrax
+  album: For All Kings
+  year: 2016
+  position: 25
+  country: USA
+  url: blood-eagle-wings
+- name: Digital Blackout
+  artist: Anti-Flag
+  album: American Fall
+  year: 2017
+  position: 66
+  country: USA
+  url: digital-blackout
+- name: Cocoon
+  artist: Astra
+  album: The Black Chord
+  year: 2012
+  position: 82
+  country: USA
+  url: cocoon
+- name: Ghost
+  artist: Badflower
+  album: OK, I'm Sick
+  year: 2018
+  position: 57
+  country: USA
+  url: ghost
+- name: Cocainium
+  artist: Baroness
+  album: Yellow & Green
+  year: 2012
+  position: 79
+  country: USA
+- name: Turn Away
+  artist: Beck
+  album: Morning Phase
+  year: 2014
+  position: 79
+  country: USA
+  url: turn-away
+- name: Holland
+  artist: The Black Angels
+  album: Indigo Meadow
+  year: 2013
+  position: 75
+  country: USA
+  url: holland
+- name: Little Black Submarines
+  artist: The Black Keys
+  album: El Camino
+  year: 2011
+  position: 39
+  country: USA
+  url: little-black-submarines
+- name: Holding All the Roses
+  artist: Blackberry Smoke
+  album: Holding All the Roses
+  year: 2015
+  position: 48
+  country: USA
+  url: holding-all-the-roses
+- name: River
+  artist: Blues Pills
+  album: Blues Pills
+  year: 2014
+  position: 55
+  country: Sweden
+  url: river
+- name: Rust
+  artist: Bombus
+  album: Repeat Until Death
+  year: 2016
+  position: 17
+  country: Sweden
+  url: rust
+- name: Kobe
+  artist: Bossk
+  album: Audio Noir
+  year: 2016
+  position: 40
+  country: England
+  url: kobe
+- name: Your Betrayal
+  artist: Bullet for My Valentine
+  album: Fever
+  year: 2010
+  position: 73
+  country: Wales
+- name: Blunt Force Trauma
+  artist: Cavalera Conspiracy
+  album: Blunt Force Trauma
+  year: 2011
+  position: 86
+  country: USA
+  url: blunt-force-trauma
+- name: Sorrow of a Blue Eyed Liar
+  artist: Chris Robinson Brotherhood
+  album: The Magic Door
+  year: 2012
+  position: 16
+  country: USA
+  url: sorrow-of-a-blue-eyed-liar
+- name: O' Sister
+  artist: City and Colour
+  album: Little Hell
+  year: 2011
+  position: 51
+  country: Canada
+  url: o-sister
+- name: Mr. Freedom
+  artist: Clutch
+  album: Earth Rocker
+  year: 2013
+  position: 34
+  country: USA
+  url: mr-freedom
+- name: Speed of Sound
+  artist: Communist Daughter
+  album: Lions & Lambs — EP
+  year: 2012
+  position: 64
+  country: USA
+  url: speed-of-soound
+- name: Beyond the Sun
+  artist: The Coral
+  album: Distance Inbetween
+  year: 2016
+  position: 67
+  country: England
+  url: beyond-the-sun
+- name: Western Pier
+  artist: Craig Finn
+  album: Clear Heart Full Eyes
+  year: 2011
+  position: 41
+  country: USA
+  url: western-pier
+- name: Catch Me If You Can
+  artist: The Cranberries
+  album: In the End
+  year: 2019
+  position: 54
+  country: Ireland
+  url: catch-me-if-you-can
+- name: We Forgotten Who We Are
+  artist: Crippled Black Phoenix
+  album: I, Vigilante
+  year: 2010
+  position: 11
+  country: England
+  url: we-forgotten-who-we-are
+- name: Legend of the Spaceborne Killer
+  artist: Crobot
+  album: Something Supernatural
+  year: 2014
+  position: 71
+  country: USA
+  url: legend-of-the-spaceborne-killer
+- name: "1854"
+  artist: The Dears
+  album: Degeneration Street
+  year: 2011
+  position: 53
+  country: Canada
+  url: "1854"
+- name: The Dream Calls for Blood
+  artist: Death Angel
+  album: The Dream Calls for Blood
+  year: 2013
+  position: 92
+  country: USA
+  url: the-dreamm-calls-foor-blood
+- name: The Harrow and the Haunted
+  artist: The Decemberists
+  album: Florasongs — EP
+  year: 2015
+  position: 6
+  country: USA
+  url: the-harrow-and-the-haunted
+- name: I Will Never Die
+  artist: Delta Rae
+  album: After It All
+  year: 2015
+  position: 23
+  country: USA
+  url: i-will-never-die
+- name: Praise the Lowered
+  artist: Devin Townsend Project
+  album: Deconstruction
+  year: 2011
+  position: 96
+  country: Canada
+  url: praise-the-lowered
+- name: Love Is ...
+  artist: Dinosaur Jr.
+  album: Give a Glimpse of What Yer Not
+  year: 2016
+  position: 1
+  country: USA
+  url: love-is
+- name: Rose Tattoo
+  artist: Dropkick Murphys
+  album: Signed and Sealed in Blood
+  year: 2012
+  position: 10
+  country: USA
+  url: rose-tattoo
+- name: Blood in Blood out
+  artist: Exodus
+  album: Blood in Blood out
+  year: 2014
+  position: 100
+  country: USA
+  url: blood-in--blood-out
+- name: The Light and Shade of Things
+  artist: Fates Warning
+  album: Theories of Flight
+  year: 2016
+  position: 15
+  country: USA
+  url: the-light-and-shade-of-things
+- name: The Lion's Roar
+  artist: First Aid Kit
+  album: The Lion's Roar
+  year: 2011
+  position: 14
+  country: Sweden
+  url: the-lions-roar
+- name: Dear Rosemary
+  artist: Foo Fighters
+  album: Wasting Light
+  year: 2011
+  position: 21
+  country: USA
+  url: dear-rosemary
+- name: Judas
+  artist: Fozzy
+  album: Judas
+  year: 2017
+  position: 35
+  country: USA
+  url: judas
+- name: This Old Ghost Town
+  artist: The Fratellis
+  album: We Need Medicine
+  year: 2013
+  position: 63
+  country: Scotland
+  url: this-old-ghost-town
+- name: Square Hammer
+  artist: Ghost
+  album: Popestar — EP
+  year: 2015
+  position: 3
+  country: Sweden
+  url: square-hammer
+- name: Echolocation
+  artist: Gone Is Gone
+  album: Echolocatiion
+  year: 2017
+  position: 22
+  country: USA
+  url: echolocation
+- name: Melody Emergency
+  artist: Gosssip
+  album: A Joyful Noise
+  year: 2012
+  position: 72
+  country: USA
+  url: melody-emergency
+- name: Howl
+  artist: Greenleaf
+  album: Rise Above the Meadow
+  year: 2016
+  position: 26
+  country: Sweden
+  url: howl
+- name: I Miss the Misery
+  artist: Halestorm
+  album: The Strange Case of ...
+  year: 2012
+  position: 42
+  country: USA
+  url: i-miss-the-misery
+- name: Full Circle
+  artist: Half Moon Run
+  album: Dark Eyes
+  year: 2012
+  position: 70
+  country: USA
+  url: full-circle
+- name: Saffronia's Mark
+  artist: Heart
+  album: Red Velvet Car
+  year: 2010
+  position: 38
+  country: USA
+  url: saffronias-mark
+- name: Madness of an Architect
+  artist: High on Fire
+  album: De Vermis Mysteriis
+  year: 2012
+  position: 87
+  country: USA
+  url: madness-of-an-architect
+- name: A Slight Discomfort
+  artist: The Hold Steady
+  album: Heaven Is Whenever
+  year: 2010
+  position: 93
+  country: USA
+  url: a-slight-discomfort
+- name: Day of the Dead
+  artist: Hollywood Undead
+  album: Day of the Dead
+  year: 2014
+  position: 91
+  country: USA
+  url: day-of-the-dead
+- name: Sympathizer
+  artist: Hot Water Music
+  album: Light It up
+  year: 2017
+  position: 29
+  country: USA
+  url: sympathizer
+- name: The 2 Mousquetaires of Gasconha
+  artist: The Inspector Cluzo
+  album: The 2 Mousquetaires
+  year: 2012
+  position: 62
+  country: France
+  url: the-2-mousquetaires-of-gasconha
+- name: The Unlikely Event of a Water Landing
+  artist: Intronaut
+  album: The Direction of Last Things
+  year: 2015
+  position: 78
+  country: USA
+  url: the-unlikely-event-of-a-water-landing
+- name: The Red and the Black
+  artist: Iron Maiden
+  album: The Book of Souls
+  year: 2015
+  position: 47
+  country: England
+  url: the-red-and-the-black
+- name: Can I
+  artist: J Mascis
+  album: Several Shades of Why
+  year: 2011
+  position: 50
+  country: USA
+  url: can-i
+- name: Would You Fight for My Love?
+  artist: Jack White
+  album: Lazareto
+  year: 2014
+  position: 83
+  country: USA
+  url: would-you-fight-for-my-love
+- name: Irresistible Force
+  artist: Jane's Addiction
+  album: The Great Escape Artist
+  year: 2011
+  position: 18
+  country: USA
+  url: irresistible-force
+- name: Black Lung Heartache
+  artist: Joe Bonamassa
+  album: Dust Bowl
+  year: 2011
+  position: 46
+  country: USA
+  url: black-lung-heartache
+- name: March of the Damned
+  artist: Judas Priest
+  album: Redeemer of Souls
+  year: 2014
+  position: 84
+  country: England
+  url: march-of-the-damned
+- name: Black Sacrophagus
+  artist: Junius
+  album: Eternal Rituals for the Accretion of Light
+  year: 2017
+  position: 4
+  country: USA
+  url: black-sacrophagus
+- name: Die Baby Die
+  artist: Kadavar
+  album: Roough Times
+  year: 2017
+  position: 80
+  country: Germany
+  url: die-baby-die
+- name: Vor í Vaglaskógi
+  artist: Kaleo
+  album: A / B
+  year: 2016
+  position: 28
+  country: Iceland
+  url: vo-i-vaglaskogi
+- name: Eidolon
+  artist: Karnivool
+  album: Asymmetry
+  year: 2013
+  position: 99
+  country: Australia
+  url: eidolon
+- name: Wolvish
+  artist: The Kindred
+  album: Life in Lucidity
+  year: 2014
+  position: 52
+  country: Canada
+  url: wolvish
+- name: Satan Is Real
+  artist: Kreator
+  album: Gods of Violence
+  year: 2016
+  position: 36
+  country: Germany
+  url: satan-is-real
+- name: Datzun
+  artist: Mangoo
+  album: Neverland
+  year: 2012
+  position: 81
+  country: Finland
+  url: datzun
+- name: Nails
+  artist: Massive Wagons
+  album: Welcome to the World
+  year: 2016
+  position: 60
+  country: UK
+  url: nails
+- name: The Hunter
+  artist: Mastodon
+  album: The Hunter
+  year: 2011
+  position: 43
+  country: USA
+  url: the-hunter
+- name: Black Swan
+  artist: Megadeth
+  album: Th1rt3en
+  year: 2011
+  position: 61
+  country: USA
+  url: black-swan
+- name: Bear's Vision of St. Agnes
+  artist: mewithoutYou
+  album: Ten Stories
+  year: 2012
+  position: 27
+  country: USA
+  url: bears-vision-of-st-agnes
+- name: Nothing
+  artist: Millencolin
+  album: SOS
+  year: 2019
+  position: 45
+  country: Sweden
+  url: nothing
+- name: Sweet Mountain River
+  artist: Monster Truck
+  album: Furiosity
+  year: 2013
+  position: 69
+  country: Canada
+  url: sweet-mountain-river
+- name: Miracle Temple Holiness
+  artist: Mount Moriah
+  album: Miracle Temple
+  year: 2013
+  position: 76
+  country: USA
+  url: miracle-temple-holiness
+- name: Gnarcissist
+  artist: Mutoid Man
+  album: Helium Head
+  year: 2013
+  position: 19
+  country: USA
+  url: gnarcissist
+- name: Bloodbuzz Ohio
+  artist: The National
+  album: High Violet
+  year: 2010
+  position: 7
+  country: USA
+  url: bloodbuzz-ohio
+- name: Folklore
+  artist: Opeth
+  album: Heritage
+  year: 2011
+  position: 20
+  country: Sweden
+  url: folklore
+- name: Heavy Lies the Crown
+  artist: Orange Goblin
+  album: Back from the Abyss
+  year: 2014
+  position: 9
+  country: UK
+  url: heavy-lies-the-crown
+- name: No Hope in Sight
+  artist: Paradise Lost
+  album: The Plague Within
+  year: 2015
+  position: 58
+  country: UK
+  url: no-hope-in-sight
+- name: The Void
+  artist: Parkway Drive
+  album: Reverance
+  year: 2018
+  position: 44
+  country: Australia
+  url: the-void
+- name: Vibrato
+  artist: Paul Gilbert
+  album: Vibrato
+  year: 2012
+  position: 89
+  country: USA
+  url: vibrato
+- name: So Long, and Thanks for All the Fish
+  artist: A Perfect Circle
+  album: Eat the Elephant
+  year: 2018
+  position: 2
+  country: USA
+  url: so-long-and-thanks-for-all-the-fish
+- name: Heart Afire
+  artist: Prophets of Rage
+  album: Heart Afire — single
+  year: 2018
+  position: 59
+  country: USA
+  url: heart-afire
+- name: World Stands Still
+  artist: Puppy
+  album: The Goat
+  year: 2019
+  position: 30
+  country: UK
+  url: world-stands-still
+- name: How Many Walls
+  artist: Rise Against
+  album: Wolves
+  year: 2017
+  position: 90
+  country: USA
+  url: how-many-walls
+- name: Here I Come (There You Go)
+  artist: Royal Republic
+  album: Weekend Man
+  year: 2016
+  position: 37
+  country: Sweden
+  url: here-i-come-there-you-go
+- name: Polygon of Eyes
+  artist: Scorpion Child
+  album: Scorpion Child
+  year: 2013
+  position: 98
+  country: USA
+  url: polygon-of-eyes
+  cover: scorpion-child_album.jpg
+- name: The Sun Is Dreaming in the Soul
+  artist: Scott Kelly & the Road Home
+  album: The Forgiven Ghost in Me
+  year: 2012
+  position: 88
+  country: USA
+  url: the-sun-is-dreamin-in-the-soul
+- name: Kairos
+  artist: Sepultura
+  album: Kairos
+  year: 2011
+  position: 68
+  country: Sepultura
+  url: kairos
+- name: Cut the Cord
+  artist: Shinedown
+  album: Threat to Survival
+  year: 2015
+  position: 12
+  country: USA
+  url: cut-the-chord
+- name: Belly of the Beast
+  artist: Sixx:A.M.
+  album: Prayers for the Damned
+  year: 2016
+  position: 85
+  country: USA
+  url: belly-of-the-beast
+- name: Burned from Bone
+  artist: Skeltonwitch
+  album: Serpents Unleashed
+  year: 2013
+  position: 13
+  country: USA
+  url: burned-from-bone
+- name: Luminol
+  artist: Steven Wilson
+  album: The Raven That Refused to Sing (and Other Stories)
+  year: 2012
+  position: 31
+  country: UK
+  url: luminol
+- name: Collapse
+  artist: A Storm of Light
+  album: As the Valley of Death Becomes Us, Our Silver Memories Fade
+  year: 2011
+  position: 33
+  country: USA
+  url: collapse
+- name: Torment Sorror Misery Strife
+  artist: Therapy?
+  album: Disquiet
+  year: 2015
+  position: 94
+  country: UK
+  url: torment-sorrow-misery-strife
+- name: The Revanchist
+  artist: Trivium
+  album: The Sin and the Sentence
+  year: 2017
+  position: 56
+  country: USA
+  url: the-revanchist
+- name: Solid Gold
+  artist: Turbowolf
+  album: Two Hands
+  year: 2015
+  position: 32
+  country: UK
+  url: solid-gold
+- name: Over and Over Again
+  artist: Uncle Acid & the Deadbeats
+  album: Blood Lust
+  year: 2012
+  position: 8
+  country: UK
+  url: over-and-over-again
+- name: One May Never Know
+  artist: Von Hertzen Brothers
+  album: Nine Lives
+  year: 2013
+  position: 74
+  country: Finland
+  url: one-may-never-know
+- name: Flag of Fate
+  artist: Witchcraft
+  album: Legend
+  year: 2012
+  position: 65
+  country: Sweden
+  url: flag-of-fate
+- name: Corsicana Clip
+  artist: Wovenhand
+  album: Refractory Obdurate
+  year: 2014
+  position: 95
+  country: USA
+  url: corsicana-clip
