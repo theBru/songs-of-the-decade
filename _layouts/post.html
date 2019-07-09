@@ -11,21 +11,85 @@
       <div class="entry">
         {% assign songs = site.data.songs %}
         {% for song in songs %}
-            {% if song.name == page.title %}
-                <h1 class="entry-title grid-container">
-                    <div class="position accent-colour grid-item">{{ song.position }}.</div> 
-                    <div class="song-name grid-item">{{ page.title }}</div>
-                    <div class="song-meta grid-item small-text">
-                        <span class="meta-label">Artist:</span> {{ song.artist }} <span class="divider">&#183;</span> <span class="meta-label">Album:</span> {{ song.album }} <span class="divider">&#183;</span> <span class="meta-label">Year:</span> {{ song.year }}
+        {% if song.name == page.title %}
+        <div class="song-navigation">
+            {% assign position = song.position %}
+            {% assign next = position | minus: 1 %}
+            {% assign previous = position | plus: 1 %}
+            <ul class="flex-container">
+                <li>
+                    {% if position != 1 %}
+                        {% for previousSong in songs %}
+                            {% if previous == previousSong.position %}
+                                <a href="{{ previousSong.url }}">&#60; Previous</a>
+                            {% endif %}
+                        {% endfor %}
+                    {% endif %}
+                </li>
+                <li>
+                    {% if position != 100 %}
+                        {% for nextSong in songs %}
+                            {% if next == nextSong.position %}
+                                <a href="{{ nextSong.url }}">Next &#62;</a>
+                            {% endif %}
+                        {% endfor %}
+                    {% endif %}
+                </li>
+            </ul>
+        </div>
+        <h1 class="entry-title grid-container">
+            <div class="position accent-colour grid-item">{{ song.position }}.</div> 
+            <div class="song-name grid-item">{{ page.title }}</div>
+            <div class="song-meta grid-item small-text">
+                <span class="meta-label">Artist:</span> {{ song.artist }} <span class="divider">&#183;</span> <span class="meta-label">Album:</span> {{ song.album }} <span class="divider">&#183;</span> <span class="meta-label">Year:</span> {{ song.year }}
+            </div>
+        </h1>
+        <div class="song-content">
+            <div class="artist-image">
+                <img src="assets/img/{{ song.artistImage }}" alt="{{ song.artist }} in {{ song.year }}">
+                <p class="image-caption">{{ song.artist}} in {{ song.year }}</p>
+            </div>
+            <div class="blurb">
+                {{ content }}
+                <h2 class="section-header">
+                    Listen
+                </h2>
+                <div class="media">
+                    <div class="spotify">
+                        <iframe class="flex-item" src="https://open.spotify.com/embed/track/{{ song.spotify }}" height="81" width="100%" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
                     </div>
-                </h1>
-                <div class="song=content">
-                    {{ content }}
+                    <div class="apple-music">
+                        <iframe class="flex-item" allow="autoplay *; encrypted-media *;" frameborder="0" height="150" width="100%" style="width:100%; max-width: 100%; overflow:hidden;background:transparent;" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation" src="https://embed.music.apple.com/gb/album/{{ song.apple }}&app=music"></iframe>
+                    </div>
                 </div>
-                <div class="album-cover">
-                    <img src="/assets/img/{{ song.cover }}" alt="Album cover">
-                </div>
-            {% endif %}
+            </div>
+        </div>
+        <div class="song-navigation song-navigation_bottom">
+            {% assign position = song.position %}
+            {% assign next = position | minus: 1 %}
+            {% assign previous = position | plus: 1 %}
+            <ul class="flex-container">
+                <li>
+                    {% if position != 1 %}
+                        {% for previousSong in songs %}
+                            {% if previous == previousSong.position %}
+                                <a href="{{ previousSong.url }}">&#60; Previous</a>
+                            {% endif %}
+                        {% endfor %}
+                    {% endif %}
+                </li>
+                <li>
+                    {% if position != 100 %}
+                        {% for nextSong in songs %}
+                            {% if next == nextSong.position %}
+                                <a href="{{ nextSong.url }}">Next &#62;</a>
+                            {% endif %}
+                        {% endfor %}
+                    {% endif %}
+                </li>
+            </ul>
+        </div>
+        {% endif %}
         {% endfor %}
       </div>
   </body>

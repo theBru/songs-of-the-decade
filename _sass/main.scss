@@ -11,18 +11,15 @@ body {
     margin: 2vh auto;
     display: block;
     width: 75%;
-    max-width: 960px;
+    max-width: 1024px;
     font-family: $font-base;
     line-height: $line-height;
     font-size: $font-size-base;
     color: $text-colour;
 }
 
-#site-header {
-    & a {
-        color: inherit;
-        text-decoration-color: $accent-colour !important;
-    }
+a {
+    color: $accent-colour;
 }
 
 #site-title {
@@ -40,11 +37,11 @@ body {
 }
 
 .entry {
-    margin-top: 2rem; 
+    margin: 3rem 0; 
 }
 
 .entry-title {
-    font-size: 3.5rem;
+    font-size: 3rem;
 }
 
 .position,
@@ -68,6 +65,14 @@ body {
     grid-template-rows: 1fr 1fr;
     grid-column-gap: 1rem;
     grid-row-gap: 0;
+}
+
+.flex-container {
+    display: flex;
+    & .album-cover {
+        flex: 0 0 250px;
+        margin-right: 2em;
+    }
 }
 
 .small-text {
@@ -112,8 +117,52 @@ body {
     }
 }
 
+.blurb {
+    display: block;
+    margin: auto;
+    width: 100%;
+    max-width: 720px;
+}
+
 p {
-    margin-bottom: 1em;
+    margin: 1em 0;
     line-height: 1.8;
     font-size: $font-size-base * 1.2;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+.section-header {
+    margin-bottom: 1em;
+    font-weight: 700;
+    font-size: 110%;
+}
+
+.song-navigation {
+    font-size: 80%;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+.song-navigation_bottom {
+    margin-top: 3rem;
+}
+
+.grid-container_media {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 1em;
+}
+
+iframe {
+    margin-bottom: 1em;
+    width: 100% !important;
+}
+
+.image-caption {
+    font-size: 80%;
+    margin: 0;
 }

@@ -681,7 +681,7 @@
   year: 2014
   position: 97
   country: UK
-  url: sunset-on-golden-age
+  url: drink
 - name: Polygon of Eyes
   artist: Scorpion Child
   album: Scorpion Child
@@ -689,7 +689,9 @@
   position: 98
   country: USA
   url: polygon-of-eyes
-  cover: scorpion-child_album.jpg
+  artistImage: scorpion-child_band.jpg
+  spotify: 1sGLwoTeSbMUccGUYLHLY0
+  apple: polygon-of-eyes/643847055?i=643847182
 - name: Human Radio
   artist: Shinedown
   album: ATTENTION ATTENTION
@@ -704,4 +706,3 @@
   position: 100
   country: USA
   url: blood-in--blood-out
-
