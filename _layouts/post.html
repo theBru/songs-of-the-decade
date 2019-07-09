@@ -73,7 +73,7 @@
                     {% if position != 1 %}
                         {% for previousSong in songs %}
                             {% if previous == previousSong.position %}
-                                <a href="{{ previousSong.url }}">&#60; Previous</a>
+                                <a href="{{ previousSong.url }}"><span aria-hidden="true">&#60; </span>Previous</a>
                             {% endif %}
                         {% endfor %}
                     {% endif %}
@@ -82,7 +82,7 @@
                     {% if position != 100 %}
                         {% for nextSong in songs %}
                             {% if next == nextSong.position %}
-                                <a href="{{ nextSong.url }}">Next &#62;</a>
+                                <a href="{{ nextSong.url }}">Next<span aria-hidden="true"> &#62;</span></a>
                             {% endif %}
                         {% endfor %}
                     {% endif %}
