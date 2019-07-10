@@ -5,6 +5,9 @@
   position: 1
   country: USA
   url: love-is
+  artistImage: dinosaur-jr.jpg
+  spotify: 1sGLwoTeSbMUccGUYLHLY0
+  apple: polygon-of-eyes/643847055?i=643847182
 - name: So Long, and Thanks for All the Fish
   artist: A Perfect Circle
   album: Eat the Elephant
@@ -12,6 +15,9 @@
   position: 2
   country: USA
   url: so-long-and-thanks-for-all-the-fish
+  artistImage: a-perfect-circle.jpg
+  spotify: 1sGLwoTeSbMUccGUYLHLY0
+  apple: polygon-of-eyes/643847055?i=643847182
 - name: Square Hammer
   artist: Ghost
   album: Popestar — EP
@@ -668,13 +674,16 @@
   position: 95
   country: USA
   url: corsicana-clip
-- name: Bostogne Blues
-  artist: Crippled Black Phoeniz
+- name: Bastogne Blues
+  artist: Crippled Black Phoenix
   album: I, Vigilante
   year: 2010
   position: 96
   country: UK
-  url: bostogne-blues
+  url: bastogne-blues
+  artistImage: crippled-black-phoenix.jpg
+  spotify: 28iag8HJfSAooiEzWs00Bi
+  apple: bastogne-blues/1014625945?i=1014626354
 - name: Drink
   artist: Alestorm
   album: Suunset on Golden age
@@ -682,6 +691,9 @@
   position: 97
   country: UK
   url: drink
+  artistImage: alestorm.jpg
+  spotify: 0SPHbfBIe0mdRnae2MWuzr
+  apple: drink/1184125401?i=1184125740
 - name: Polygon of Eyes
   artist: Scorpion Child
   album: Scorpion Child
@@ -692,17 +704,23 @@
   artistImage: scorpion-child_band.jpg
   spotify: 1sGLwoTeSbMUccGUYLHLY0
   apple: polygon-of-eyes/643847055?i=643847182
-- name: Human Radio
+- name: The Human Radio
   artist: Shinedown
   album: ATTENTION ATTENTION
   year: 2018
   position: 99
   country: USA
-  url: human-radio
+  url: the-human-radio
+  artistImage: shinedown.jpg
+  spotify: 5SyUoQtQaeYoMUmjUcsCRi
+  apple: the-human-radio/1352572887?i=1352573711
 - name: Blood in Blood out
   artist: Exodus
   album: Blood in Blood out
   year: 2014
   position: 100
   country: USA
-  url: blood-in--blood-out
+  url: blood-in-blood-out
+  artistImage: exodus.jpg
+  spotify: 4Gm5jpLVoOqWsunvGFA2NB
+  apple: blood-in-blood-out/914494305?i=914494342

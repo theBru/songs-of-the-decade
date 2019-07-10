@@ -18,7 +18,7 @@
             {% assign previous = position | plus: 1 %}
             <ul class="flex-container">
                 <li>
-                    {% if position != 1 %}
+                    {% if position != 100 %}
                         {% for previousSong in songs %}
                             {% if previous == previousSong.position %}
                                 <a href="{{ previousSong.url }}">&#60; Previous</a>
@@ -27,7 +27,7 @@
                     {% endif %}
                 </li>
                 <li>
-                    {% if position != 100 %}
+                    {% if position != 1 %}
                         {% for nextSong in songs %}
                             {% if next == nextSong.position %}
                                 <a href="{{ nextSong.url }}">Next &#62;</a>
@@ -41,13 +41,13 @@
             <div class="position accent-colour grid-item">{{ song.position }}.</div> 
             <div class="song-name grid-item">{{ page.title }}</div>
             <div class="song-meta grid-item small-text">
-                <span class="meta-label">Artist:</span> {{ song.artist }} <span class="divider">&#183;</span> <span class="meta-label">Album:</span> {{ song.album }} <span class="divider">&#183;</span> <span class="meta-label">Year:</span> {{ song.year }}
+                <span class="meta-label">Artist:</span> {{ song.artist }} <span class="divider">&#183;</span> <span class="meta-label">Album:</span> {{ song.album }} <span class="divider">&#183;</span> <span class="meta-label">Year:</span> {{ song.year }} <span class="divider">&#183;</span> <span class="meta-label">Country:</span> {{ song.country }}
             </div>
         </h1>
         <div class="song-content">
             <div class="artist-image">
                 <img src="assets/img/{{ song.artistImage }}" alt="{{ song.artist }} in {{ song.year }}">
-                <p class="image-caption">{{ song.artist}} in {{ song.year }}</p>
+                <p class="image-caption">{{ song.artist}}</p>
             </div>
             <div class="blurb">
                 {{ content }}
@@ -70,7 +70,7 @@
             {% assign previous = position | plus: 1 %}
             <ul class="flex-container">
                 <li>
-                    {% if position != 1 %}
+                    {% if position != 100 %}
                         {% for previousSong in songs %}
                             {% if previous == previousSong.position %}
                                 <a href="{{ previousSong.url }}"><span aria-hidden="true">&#60; </span>Previous</a>
@@ -79,7 +79,7 @@
                     {% endif %}
                 </li>
                 <li>
-                    {% if position != 100 %}
+                    {% if position != 1 %}
                         {% for nextSong in songs %}
                             {% if next == nextSong.position %}
                                 <a href="{{ nextSong.url }}">Next<span aria-hidden="true"> &#62;</span></a>
