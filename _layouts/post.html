@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <title>{{ page.title }} | {{ site.title }}</title>
     <link rel="stylesheet" href="/assets/css/styles.css">
-    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Oswald:600|Source+Sans+Pro:400,700&display=swap" rel="stylesheet">
     {% feed_meta %}
   <body>
       {% include header.html %}
@@ -39,28 +39,36 @@
         </div>
         <h1 class="entry-title grid-container">
             <div class="position accent-colour grid-item">{{ song.position }}.</div> 
-            <div class="song-name grid-item">{{ page.title }}</div>
-            <div class="song-meta grid-item small-text">
-                <span class="meta-label">Artist:</span> {{ song.artist }} <span class="divider">&#183;</span> <span class="meta-label">Album:</span> {{ song.album }} <span class="divider">&#183;</span> <span class="meta-label">Year:</span> {{ song.year }} <span class="divider">&#183;</span> <span class="meta-label">Country:</span> {{ song.country }}
-            </div>
+            <div class="song-name grid-item">{{ page.title }} <span class="divider">/</span> <span class="artist-label">{{ song.artist }}</span></div>
         </h1>
-        <div class="song-content">
-            <div class="artist-image">
-                <img src="assets/img/{{ song.artistImage }}" alt="{{ song.artist }} in {{ song.year }}">
-                <p class="image-caption">{{ song.artist}}</p>
+        <div class="song-content grid-container_song-content">
+            <div class="cover-image grid-item">
+                <div class="sticky-item">
+                    <img src="assets/img/{{ song.cover }}" alt="{{ song.album }}">
+                    <p class="small-text"><span class="bold-text">Album: </span> {{ song.album }}</p>
+                    <p class="small-text">{{ song.year }} &#183; {{ song.country }}</p>
+                    <div class="media flex-container_media">
+                        {% if song.spotify != "n/a" %}
+                        <div class="spotify">
+                            <a href="https://open.spotify.com/embed/track/{{ song.spotify }}"><img src="/assets/img/spotify.png"></a>
+                        </div>
+                        {% endif %}
+                        {% if song.apple != "n/a" %}
+                        <div class="apple-music">
+                            <a href="https://music.apple.com/gb/album/{{ song.apple }}&app=music&ls=1"><img src="/assets/img/apple.png"></a>
+                        </div>
+                        {% endif %}
+                        {% if song.youtube != "n/a" %}
+                        <div class="youtube">
+                            <a href="https://youtu.be/{{ song.youtube }}"><img src="/assets/img/youtube.png"></a>
+                        </div>
+                        {% endif %}
+                    </div>
+                </div>
             </div>
-            <div class="blurb">
-                {{ content }}
-                <h2 class="section-header">
-                    Listen
-                </h2>
-                <div class="media">
-                    <div class="spotify">
-                        <iframe class="flex-item" src="https://open.spotify.com/embed/track/{{ song.spotify }}" height="81" width="100%" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
-                    </div>
-                    <div class="apple-music">
-                        <iframe class="flex-item" allow="autoplay *; encrypted-media *;" frameborder="0" height="150" width="100%" style="width:100%; max-width: 100%; overflow:hidden;background:transparent;" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation" src="https://embed.music.apple.com/gb/album/{{ song.apple }}&app=music"></iframe>
-                    </div>
+            <div class="grid-item">
+                <div class="blurb">
+                    {{ content }}                
                 </div>
             </div>
         </div>

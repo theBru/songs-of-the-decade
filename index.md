@@ -7,4 +7,4 @@ layout: home
 # This is the home page
 {: #test-id}
 
-And this is its content.
+[Start](blood-in-blood-out)

@@ -667,6 +667,10 @@
   position: 94
   country: UK
   url: torment-sorrow-misery-strife
+  artistImage: wovenhand.jpg
+  spotify: 07piYibggT6iYOywucpnok
+  apple: corsicana-clip/1329280534?i=1329280535
+  youtube: n/a
 - name: Corsicana Clip
   artist: Wovenhand
   album: Refractory Obdurate
@@ -674,6 +678,11 @@
   position: 95
   country: USA
   url: corsicana-clip
+  cover: refractory-obdurate.png
+  artistImage: wovenhand.jpg
+  spotify: 07piYibggT6iYOywucpnok
+  apple: corsicana-clip/1329280534?i=1329280535
+  youtube: n/a
 - name: Bastogne Blues
   artist: Crippled Black Phoenix
   album: I, Vigilante
@@ -681,19 +690,23 @@
   position: 96
   country: UK
   url: bastogne-blues
+  cover: i-vigilante.jpg
   artistImage: crippled-black-phoenix.jpg
   spotify: 28iag8HJfSAooiEzWs00Bi
   apple: bastogne-blues/1014625945?i=1014626354
+  youtube: n/a
 - name: Drink
   artist: Alestorm
-  album: Suunset on Golden age
+  album: Sunset on Golden age
   year: 2014
   position: 97
   country: UK
   url: drink
+  cover: sunset-on-the-golden-age.jpg
   artistImage: alestorm.jpg
   spotify: 0SPHbfBIe0mdRnae2MWuzr
   apple: drink/1184125401?i=1184125740
+  youtube: f55CqLc6IR0
 - name: Polygon of Eyes
   artist: Scorpion Child
   album: Scorpion Child
@@ -701,9 +714,10 @@
   position: 98
   country: USA
   url: polygon-of-eyes
-  artistImage: scorpion-child_band.jpg
+  cover: scorpion-child_album.jpg
   spotify: 1sGLwoTeSbMUccGUYLHLY0
   apple: polygon-of-eyes/643847055?i=643847182
+  youtube: hPGabnPz0bk
 - name: The Human Radio
   artist: Shinedown
   album: ATTENTION ATTENTION
@@ -711,9 +725,11 @@
   position: 99
   country: USA
   url: the-human-radio
+  cover: attention-attention.jpg
   artistImage: shinedown.jpg
   spotify: 5SyUoQtQaeYoMUmjUcsCRi
   apple: the-human-radio/1352572887?i=1352573711
+  youtube: fMHfRqP0KSY
 - name: Blood in Blood out
   artist: Exodus
   album: Blood in Blood out
@@ -721,6 +737,8 @@
   position: 100
   country: USA
   url: blood-in-blood-out
-  artistImage: exodus.jpg
+  cover: blood-in-blood-out.jpg
+  aertistImage: exodus.jpg
   spotify: 4Gm5jpLVoOqWsunvGFA2NB
   apple: blood-in-blood-out/914494305?i=914494342
+  youtube: 6c69S3pD8qI
