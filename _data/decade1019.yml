@@ -466,13 +466,17 @@
   position: 66
   country: Sweden
   url: flag-of-fate
-- name: Digital Blackout
-  artist: Anti-Flag
-  album: American Fall
-  year: 2017
+- name: Torment Sorror Misery Strife
+  artist: Therapy?
+  album: Disquiet
+  year: 2015
   position: 67
-  country: USA
-  url: digital-blackout
+  country: UK
+  url: torment-sorrow-misery-strife
+  cover: disquiet.jpg
+  spotify: 3UT6P8ict3eM2529siP9xJ
+  apple: torment-sorrow-misery-strife/969548989?i=969549512
+  youtube: n/a
 - name: Beyond the Sun
   artist: The Coral
   album: Distance Inbetween
@@ -653,6 +657,12 @@
   position: 92
   country: USA
   url: the-dreamm-calls-foor-blood
+  cover: the-dream-calls-for-blood.jpg
+  spotify: 5UlYFYqcSJNdugQemLSZgd
+  apple: the-dream-calls-for-blood/695736209?i=695736657
+  youtube: _SyV4mFo9xw
+  blurb: |
+    Something
 - name: A Slight Discomfort
   artist: The Hold Steady
   album: Heaven Is Whenever
@@ -660,29 +670,40 @@
   position: 93
   country: USA
   url: a-slight-discomfort
-- name: Torment Sorror Misery Strife
-  artist: Therapy?
-  album: Disquiet
-  year: 2015
+  cover: heaven-is-whenever.jpg
+  spotify: 6AhfxLnhVMDex2sLHyYln2
+  apple: a-slight-discomfort/1176769765?i=1176769899
+  youtube: TYyLbTNMqhU
+  blurb: |
+    <p>This is a song of two very distinct parts, but held brilliantly well by a subtle shift in tones that comes in about halfway through. The first part is a song perfect for a dark, smoky bar with a fine tumbler of whiskey in one hand.</p>
+    <p>Then the song suddenly shifts to a soaring, uplifing coda that at first feels quite out of place, but by the end it all makes sense. Much like The Hold Steady.</p> 
+- name: Digital Blackout
+  artist: Anti-Flag
+  album: American Fall
+  year: 2017
   position: 94
-  country: UK
-  url: torment-sorrow-misery-strife
-  artistImage: wovenhand.jpg
-  spotify: 07piYibggT6iYOywucpnok
-  apple: corsicana-clip/1329280534?i=1329280535
-  youtube: n/a
-- name: Corsicana Clip
+  country: USA
+  url: digital-blackout
+  cover: american-fall.jpg
+  spotify: 6J8NoHvdDIcwPKPImGEorH
+  apple: digital-blackout/1440908023?i=1440908039
+  youtube: iw8P1DKUvzI
+  blurb: |
+    <p>An unsung hero of the punk rock world they may be, but Anti-Flag are just too good to be stuck in the lower tier. Case in point is this melodic belter. Subtle it may not be (when was punk ever subtle anout anything?), but it's very clever in its arrangement and of its time in its lyrics.</p>
+    <p>The shift in tone from shoegazer punk, to pseudo-mosh freakout bridge, to an arena-rock-friendly chorus is masterfully done. It makes you rock and think, as the cliché goes.</p> 
+- name: The Refractory
   artist: Wovenhand
   album: Refractory Obdurate
   year: 2014
   position: 95
   country: USA
-  url: corsicana-clip
+  url: the-refractory
   cover: refractory-obdurate.png
-  artistImage: wovenhand.jpg
-  spotify: 07piYibggT6iYOywucpnok
-  apple: corsicana-clip/1329280534?i=1329280535
+  spotify: 4Nx26BsCIIfHJnYH6YABVn
+  apple: the-refractory/1329280534?i=1329280537&mt=1
   youtube: n/a
+  blurb: |
+    <p>Sounding like it's straight out of <span class="bold-text">Consider the Birds</span> (2004) or <span class="bold-text">Mosaic</span> (2006) albums, this was a reminder what a potent songwriter David Eugene Edwards is — soaring, melodic, and the right shade of melancholic, the song evolves beautifully from a banjo-led intro with  indecisive interludes by the band, to a full-blown "arena-rock moment" of an outro as it lets the hook carry it all to beautiful coda.</p>
 - name: Bastogne Blues
   artist: Crippled Black Phoenix
   album: I, Vigilante
@@ -691,10 +712,12 @@
   country: UK
   url: bastogne-blues
   cover: i-vigilante.jpg
-  artistImage: crippled-black-phoenix.jpg
   spotify: 28iag8HJfSAooiEzWs00Bi
   apple: bastogne-blues/1014625945?i=1014626354
   youtube: n/a
+  blurb: |
+    <p>A sad ode to war and its psychological baggage on those who partake in it, this is the first of two CBP songs on this list.</p>
+    <p>A melancholy epic ballad that starts with a war veteran recalling the moment when he killed an enemy soldier point blank. Then it gets darker and darker as it sucks you in to a melodic loop that is sad and uplifting at the same time. It's truly a majestic song.</p>
 - name: Drink
   artist: Alestorm
   album: Sunset on Golden age
@@ -703,10 +726,13 @@
   country: UK
   url: drink
   cover: sunset-on-the-golden-age.jpg
-  artistImage: alestorm.jpg
   spotify: 0SPHbfBIe0mdRnae2MWuzr
   apple: drink/1184125401?i=1184125740
   youtube: f55CqLc6IR0
+  blurb: |
+    <p>The greatest pirate metal song? Or the greatest drinking song?</p>
+    <p>Probably, both. So raise your glasses / bottles:<p>
+    <p>"We are here to drink your beer / and steal your rum at the point of a gun / your alcohol to us will fall / 'cause we are here to drink your beer!"</p>
 - name: Polygon of Eyes
   artist: Scorpion Child
   album: Scorpion Child
@@ -718,6 +744,8 @@
   spotify: 1sGLwoTeSbMUccGUYLHLY0
   apple: polygon-of-eyes/643847055?i=643847182
   youtube: hPGabnPz0bk
+  blurb: |
+    <p>"Polygon of Eyes" was the lead single from the Austin band's eponymous debut and it is quite the thing with its fast superfast riffage and the mid-tempo, stupidly catchy singalong chorus. It has all the swagger of a bone fide hard rock hit with enough energy to fill out a stadium or rock the foundations of any place you deem appropriate to listen to it in.</p>
 - name: The Human Radio
   artist: Shinedown
   album: ATTENTION ATTENTION
@@ -726,10 +754,12 @@
   country: USA
   url: the-human-radio
   cover: attention-attention.jpg
-  artistImage: shinedown.jpg
   spotify: 5SyUoQtQaeYoMUmjUcsCRi
   apple: the-human-radio/1352572887?i=1352573711
   youtube: fMHfRqP0KSY
+  blurb: |
+    <p>One of two Shinedown tracks on this list, the kings of bro-rock's know how to pen a hook or three.</p>
+    <p>Stylistically it's not treading any new territories for Shinedown, but as with all their best work, it's infectiously catchy, will sock your socks off, and lifts you up with that massive chorus.</p>
 - name: Blood in Blood out
   artist: Exodus
   album: Blood in Blood out
@@ -738,7 +768,9 @@
   country: USA
   url: blood-in-blood-out
   cover: blood-in-blood-out.jpg
-  aertistImage: exodus.jpg
   spotify: 4Gm5jpLVoOqWsunvGFA2NB
   apple: blood-in-blood-out/914494305?i=914494342
   youtube: 6c69S3pD8qI
+  blurb: |
+    <p>"Tonight we're gonna fight like it's 1985" bellows Steve "Zetro" Souza. No shit.</p>
+    <p>Fast, impatient, obnoxiously heavy, "Blood in Blood out" is the epitome of thrash metal with its lightning-fast riffage, bludgenoning drums, and vocals straight from the devil's larynx.</p>

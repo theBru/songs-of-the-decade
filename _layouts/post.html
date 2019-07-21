@@ -8,97 +8,45 @@
     {% feed_meta %}
   <body>
       {% include header.html %}
-      <div class="entry">
-        {% assign songs = site.data.songs %}
+        {% assign songs = site.data.decade1019 | sort: 'position' | reverse %}
         {% for song in songs %}
-        {% if song.name == page.title %}
-        <div class="song-navigation">
-            {% assign position = song.position %}
-            {% assign next = position | minus: 1 %}
-            {% assign previous = position | plus: 1 %}
-            <ul class="flex-container">
-                <li>
-                    {% if position != 100 %}
-                        {% for previousSong in songs %}
-                            {% if previous == previousSong.position %}
-                                <a href="{{ previousSong.url }}">&#60; Previous</a>
+        <div class="entry">
+            <h2 class="entry-title grid-container">
+                <div class="position accent-colour grid-item">{{ song.position }}.</div> 
+                <div class="song-name grid-item">{{ song.name }} <span class="divider">/</span> <span class="artist-label">{{ song.artist }}</span></div>
+            </h2>
+            <div class="song-content grid-container_song-content">
+                <div class="cover-image grid-item">
+                    <div class="sticky-item">
+                        <img src="assets/img/{{ song.cover }}" alt="{{ song.album }}">
+                        <p class="small-text"><span class="bold-text">Album: </span> {{ song.album }}</p>
+                        <p class="small-text">{{ song.year }} &#183; {{ song.country }}</p>
+                        <div class="media flex-container_media">
+                            {% if song.spotify != "n/a" %}
+                            <div class="spotify">
+                                <a href="https://open.spotify.com/embed/track/{{ song.spotify }}"><img src="/assets/img/spotify.png"></a>
+                            </div>
                             {% endif %}
-                        {% endfor %}
-                    {% endif %}
-                </li>
-                <li>
-                    {% if position != 1 %}
-                        {% for nextSong in songs %}
-                            {% if next == nextSong.position %}
-                                <a href="{{ nextSong.url }}">Next &#62;</a>
+                            {% if song.apple != "n/a" %}
+                            <div class="apple-music">
+                                <a href="https://music.apple.com/gb/album/{{ song.apple }}&app=music&ls=1"><img src="/assets/img/apple.png"></a>
+                            </div>
                             {% endif %}
-                        {% endfor %}
-                    {% endif %}
-                </li>
-            </ul>
-        </div>
-        <h1 class="entry-title grid-container">
-            <div class="position accent-colour grid-item">{{ song.position }}.</div> 
-            <div class="song-name grid-item">{{ page.title }} <span class="divider">/</span> <span class="artist-label">{{ song.artist }}</span></div>
-        </h1>
-        <div class="song-content grid-container_song-content">
-            <div class="cover-image grid-item">
-                <div class="sticky-item">
-                    <img src="assets/img/{{ song.cover }}" alt="{{ song.album }}">
-                    <p class="small-text"><span class="bold-text">Album: </span> {{ song.album }}</p>
-                    <p class="small-text">{{ song.year }} &#183; {{ song.country }}</p>
-                    <div class="media flex-container_media">
-                        {% if song.spotify != "n/a" %}
-                        <div class="spotify">
-                            <a href="https://open.spotify.com/embed/track/{{ song.spotify }}"><img src="/assets/img/spotify.png"></a>
+                            {% if song.youtube != "n/a" %}
+                            <div class="youtube">
+                                <a href="https://youtu.be/{{ song.youtube }}"><img src="/assets/img/youtube.png"></a>
+                            </div>
+                            {% endif %}
                         </div>
-                        {% endif %}
-                        {% if song.apple != "n/a" %}
-                        <div class="apple-music">
-                            <a href="https://music.apple.com/gb/album/{{ song.apple }}&app=music&ls=1"><img src="/assets/img/apple.png"></a>
-                        </div>
-                        {% endif %}
-                        {% if song.youtube != "n/a" %}
-                        <div class="youtube">
-                            <a href="https://youtu.be/{{ song.youtube }}"><img src="/assets/img/youtube.png"></a>
-                        </div>
-                        {% endif %}
+                    </div>
+                </div>
+                <div class="grid-item">
+                    <div class="blurb">
+                        {{ song.blurb }}          
                     </div>
                 </div>
             </div>
-            <div class="grid-item">
-                <div class="blurb">
-                    {{ content }}                
-                </div>
-            </div>
         </div>
-        <div class="song-navigation song-navigation_bottom">
-            {% assign position = song.position %}
-            {% assign next = position | minus: 1 %}
-            {% assign previous = position | plus: 1 %}
-            <ul class="flex-container">
-                <li>
-                    {% if position != 100 %}
-                        {% for previousSong in songs %}
-                            {% if previous == previousSong.position %}
-                                <a href="{{ previousSong.url }}"><span aria-hidden="true">&#60; </span>Previous</a>
-                            {% endif %}
-                        {% endfor %}
-                    {% endif %}
-                </li>
-                <li>
-                    {% if position != 1 %}
-                        {% for nextSong in songs %}
-                            {% if next == nextSong.position %}
-                                <a href="{{ nextSong.url }}">Next<span aria-hidden="true"> &#62;</span></a>
-                            {% endif %}
-                        {% endfor %}
-                    {% endif %}
-                </li>
-            </ul>
-        </div>
-        {% endif %}
         {% endfor %}
-      </div>
   </body>
 </html>
